@@ -26,7 +26,11 @@ function RepoItem({ repo }) {
           style={{ color: "#fff" }}
           className="mb-2 text-xl font-semibold"
         >
-          <a href={html_url}>
+          <a
+            href={html_url}
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaLink className="inline mr-1" />{" "}
             {name}
           </a>
